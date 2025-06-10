@@ -31,6 +31,40 @@
     <button onclick="filterByCategory('borse')">👜 Borselli</button>
     <button onclick="filterByCategory('scarpe')">👟 Scarpe</button>
     <button onclick="filterByCategory('accessori')">🎯 Accessori</button>
+    <button onclick="filterByCategory('buono')"> <!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Redress Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Schermata di benvenuto -->
+  <div id="welcome-screen">
+    <img src="logo.png" alt="Logo Redress" class="welcome-logo" />
+    <div class="welcome-text">Benvenuto sullo shop Redress
+    </div>
+  </div>
+
+  <header id="main-header" style="display:none;">
+    <div class="header-left">
+      <img src="logo.png" alt="Logo Redress" class="logo-left" />
+    </div>
+    <div class="logo-centered">REDRESS</div>
+    <div class="top-right">
+      <input type="text" id="search" placeholder="🔍 Cerca un prodotto..." onkeyup="filterProducts()" />
+    </div>
+  </header>
+
+  <nav id="category-bar" class="category-bar" style="display:none;">
+    <button onclick="filterByCategory('copricapo')">🎩 Copricapo</button>
+    <button onclick="filterByCategory('parte superiore')">👕 Parte Superiore</button>
+    <button onclick="filterByCategory('parte inferiore')">👖 Parte Inferiore</button>
+    <button onclick="filterByCategory('borse')">👜 Borselli</button>
+    <button onclick="filterByCategory('scarpe')">👟 Scarpe</button>
+    <button onclick="filterByCategory('accessori')">🎯 Accessori</button>
+    <button onclick="filterByCategory('buono')">🎁 Buoni Regalo</button>
   </nav>
 
   <main id="main-content" style="display:none;">
