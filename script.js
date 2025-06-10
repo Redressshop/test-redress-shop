@@ -199,6 +199,34 @@ const products = [
     discount: true,
     description: ""
   },
+
+           {
+    name: "Buono da 25 Euro",
+    category: "buono",
+    image: ".png",
+    price: "25€",
+    discountedPrice: "25€",
+    discount: true,
+    description: ""
+  },
+         {
+    name: "Buono da 35 Euro",
+    category: "buono",
+    image: ".png",
+    price: "35€",
+    discountedPrice: "35€",
+    discount: true,
+    description: ""
+  },
+         {
+    name: "Buono da 50 Euro",
+    category: "buono",
+    image: ".png",
+    price: "50€",
+    discountedPrice: "50€",
+    discount: true,
+    description: ""
+  },
 ];
 
 let currentCategory = null;
